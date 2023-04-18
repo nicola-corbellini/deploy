@@ -1,4 +1,4 @@
-FROM node:18
+FROM --platform=$BUILDPLATFORM arm64v8/node:18
 
 # Create app directory
 WORKDIR /app
