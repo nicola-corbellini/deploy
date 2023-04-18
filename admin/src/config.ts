@@ -14,10 +14,10 @@ const config: Config = {
     AppFeatures.Plugins
   ],
   endpoints: {
-    chat: 'ws://87.14.7.41:1865/ws',
-    rabbitHole: 'http://87.14.7.41:1865/rabbithole',
-    allLLM: 'http://87.14.7.41:1865/settings/llm/',
-    singleLLM: 'http://87.14.7.41:1865/settings/llm/:llm'
+    chat: 'ws://192.168.1.68:1865/ws',
+    rabbitHole: 'http://192.168.1.68:1865/rabbithole',
+    allLLM: 'http://192.168.1.68:1865/settings/llm/',
+    singleLLM: 'http://192.168.1.68:1865/settings/llm/:llm'
   }
 }
 
